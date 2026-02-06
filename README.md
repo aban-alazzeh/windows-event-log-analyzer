@@ -2,15 +2,6 @@
 
 A hybrid machine learning and heuristic-based system for detecting suspicious activities in Windows Event Logs. This tool analyzes Security, System, and PowerShell logs to identify potential security threats including brute force attacks, privilege escalation, malicious PowerShell execution, and suspicious service installations.
 
-## Features
-
-- 🔐 **Brute Force Attack Detection** - Identifies failed login patterns
-- 💻 **PowerShell Suspicious Activity Detection** - Detects unusual PowerShell executions
-- 🔓 **Privilege Escalation Detection** - Monitors privilege token abuse
-- ⚙️ **Service Installation Detection** - Flags suspicious service creations
-- 📊 **Interactive Visualizations** - Timeline charts showing suspicious activity patterns
-- 🤖 **Hybrid AI System** - Combines ML models with domain-specific heuristics
-
 ## Requirements
 
 - Python 3.8 or higher
@@ -85,9 +76,6 @@ windows-event-analyzer/
 - **Benign**: Normal Windows operations and routine activities
 - **Suspicious**: Detected attack patterns or anomalous behavior
 
-## License
-
-MIT License
 
 ## Contributing
 
